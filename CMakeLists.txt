@@ -5,7 +5,7 @@ project(solvant)
 include_directories(solvant) 
 
 set(CMAKE_BUILD_TYPE Debug)
-set(CMAKE_CXX_FLAGS "-Wall -mavx -mfma -Ofast")
+# set(CMAKE_CXX_FLAGS "-Wall -mavx -mfma -Ofast")
 
 enable_testing()
 
